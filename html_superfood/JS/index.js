@@ -787,129 +787,99 @@ var HTMLTemplates = [
             },
             {
                 attributes: {
-                    text: 'Placeholder',
-                    image: '../Images/logo.png',
+                    text: 'Jello Shot',
+                    image: 'https://img.delo-vcusa.ru/2020/06/kompot-iz-revenya-s-karkade-i-imbiryom.jpg',
                     ingredients: [
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Fat',
+                            amount: 35,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Carbs',
+                            amount: 50,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Protein',
+                            amount: 15,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Omega-3',
+                            amount: 1.4,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
-                        },
-                        {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
-                        },
-                        {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Salt',
+                            amount: 2,
+                            unit: 'g'
                         },
                     ]
                 },
             },
             {
                 attributes: {
-                    text: 'Placeholder',
-                    image: '../Images/logo.png',
+                    text: 'Jello Shot',
+                    image: 'https://img.delo-vcusa.ru/2020/06/kompot-iz-revenya-s-karkade-i-imbiryom.jpg',
                     ingredients: [
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Fat',
+                            amount: 35,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Carbs',
+                            amount: 50,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Protein',
+                            amount: 15,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Omega-3',
+                            amount: 1.4,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
-                        },
-                        {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
-                        },
-                        {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Salt',
+                            amount: 2,
+                            unit: 'g'
                         },
                     ]
                 },
             },
             {
                 attributes: {
-                    text: 'Placeholder',
-                    image: '../Images/logo.png',
+                    text: 'Jello Shot',
+                    image: 'https://img.delo-vcusa.ru/2020/06/kompot-iz-revenya-s-karkade-i-imbiryom.jpg',
                     ingredients: [
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Fat',
+                            amount: 35,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Carbs',
+                            amount: 50,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Protein',
+                            amount: 15,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Omega-3',
+                            amount: 1.4,
+                            unit: 'g'
                         },
                         {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
-                        },
-                        {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
-                        },
-                        {
-                            name: 'Ingredient',
-                            amount: 0,
-                            unit: 'Unit'
+                            name: 'Salt',
+                            amount: 2,
+                            unit: 'g'
                         },
                     ]
                 },

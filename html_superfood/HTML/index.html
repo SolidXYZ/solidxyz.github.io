@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Planture</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+        <meta name="description" content="Planture">
+        <meta name="keywords" content="Planture, plant">
+        <meta name="author" content="Barack Obama">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="main"> <!--Hoved containeren-->
+            <div id="screen_ui"> <!--Dette div elementet has posisjon fiksert sånn at den ikke påvirkes av scrolling-->
+                <div id="screen_ui_visual">
+
+                </div>
+                <div id="screen_ui_interactables">
+                    <div id="nav_bar_container"> <!--Nav bar containeren-->
+                        <div id="nav_bar"> <!--Nav baren-->
+                            <div id="nav_bar_button_container"> <!--Hjem knapp-->
+                                <div id="nav_bar_logo_main">
+                                    <img id="nav_bar_logo_image" src="../Images/logo.png" alt="logo">
+                                </div>
+                                <div id="nav_bar_text_main">
+                                    <div id="nav_bar_text">
+                                        Planture
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="nav_bar_buttons"> <!--Knapper index.js lager knappene og plasserer dem inni her-->
+                            </div>
+                            <div id="nav_bar_menu"> <!--Meny knapp-->
+                                <svg id="menu_logo" viewBox="0 0 24 24" fill="none" class="dig-UIIcon" width="32" height="32" focusable="false">
+                                    <path d="M18.5 16.5h-13V18h13v-1.5Zm0-5.5h-13v1.5h13V11Zm0-5.5h-13V7h13V5.5Z" fill="currentColor"></path>
+                                </svg>
+                            </div>
+                        </div>
+                        <div id="nav_bar_borders"> <!--Custom borders-->
+                            <div id="nav_bar_logo_border">
+                                
+                            </div>
+                            <div id="nav_bar_white_border">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="scroller"> <!--Innhold i nettsiden-->
+                <div id="scroller_main"> <!--Scroller containeren-->
+                     <!--Alle seksjonene på siden-->
+                    <div class="scroller_section" id="scroller_top">
+                        <div id="scroller_top_main">
+                            <div id="scroller_top_top">
+                                <div id="scroller_top_top_main">
+                                    <div id="scroller_top_top_text">
+                                        Planture
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="scroller_top_middle">
+                                <div id="scroller_top_middle_main">
+                                    <div id="scroller_top_middle_image_container">
+                                        <img id="top_image" src="../Images/logo.png" alt="logo">
+                                    </div>
+                                    <div id="scroller_top_middle_text_container">
+                                        <div id="scroller_top_middle_title_text_container">
+                                            <div id="scroller_top_middle_title_text">
+                                                About us
+                                            </div>
+                                        </div>
+                                        <div id="scroller_top_middle_description_text_container">
+                                            <div id="scroller_top_middle_description_text">
+                                                Planture: The future is plant. Planture is an organization that offers eco-friendly food. Not only is the food sustainable and does not leave any large footprints in the nature, it is also extremely healthy. Our products cover a daily need of vitamins, minerals, protein, fat and calories. Keep scrolling to view our products.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="scroller_top_bottom">
+                                <div id="scroller_top_bottom_main">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="scroller_section" id="scroller_products">
+                        <div id="scroller_products_main">
+                            <div id="scroller_products_top">
+                                <div id="scroller_products_top_main">
+                                    <div id="scroller_products_top_text">
+                                        Products
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="scroller_products_main_products_container">
+                                <div id="scroller_products_main_products">
+                                    <div id="scroller_products_products">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="scroller_section" id="scroller_info">
+                        <div id="scroller_info_main">
+                            
+                        </div>
+                    </div>
+                    -->
+                    <div class="scroller_section" id="scroller_bottom">
+                        <div id="scroller_bottom_main">
+                            <div id="scroller_bottom_sections_container">
+                                <div id="scroller_bottom_sections">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="../JS/index.js"></script> <!--For at index.js skal funke må vi legge den til NEDERST på siden fordi alt unner dette skriptet defineres etter koden har kjørt-->
+    </body>
+</html>

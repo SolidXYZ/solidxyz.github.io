@@ -532,17 +532,18 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: left;
-    align-items: center;
+    align-items: flex-start;
     width: 100%;
-    height: 25%;
     font-family: Verdana;
 }
 
 .scroller_websites_website_title {
+    height: 25%;
     font-size: 100%;
 }
 
 .scroller_websites_website_description {
+    height: 75%;
     font-size: 80%;
 }
 

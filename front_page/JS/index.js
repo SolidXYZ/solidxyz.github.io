@@ -679,6 +679,13 @@ var HTMLTemplates = [
                     website: 'html_superfood'
                 },
             },
+            {
+                attributes: {
+                    title: '3D Cube',
+                    description: 'Controllable 3D cube using the transform HTML property. Personal project',
+                    website: 'html_3dcube'
+                },
+            },
         ]
     },
     {

@@ -675,7 +675,7 @@ var HTMLTemplates = [
             {
                 attributes: {
                     title: 'Superfood',
-                    description: 'Superfood school project',
+                    description: 'Superfood. School project',
                     website: 'html_superfood'
                 },
             },
@@ -684,6 +684,13 @@ var HTMLTemplates = [
                     title: '3D Cube',
                     description: 'Controllable 3D cube using the transform HTML property. Personal project',
                     website: 'html_3dcube'
+                },
+            },
+            {
+                attributes: {
+                    title: 'Confetti',
+                    description: 'Very cool confetti. Personal project',
+                    website: 'html_confetti'
                 },
             },
         ]

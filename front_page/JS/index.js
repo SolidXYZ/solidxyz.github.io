@@ -658,19 +658,25 @@ var HTMLTemplates = [
             </div>
             `;
             element.innerHTML = html;
-            createButton('backgroundColor', element);
+            createButton('backgroundColor', element, {
+                down: function() {
+                    location.href = `../pages/${elementData.attributes.website}/HTML/index.html`
+                }
+            });
         },
         objectData: [
             {
                 attributes: {
                     title: 'PickupBox',
-                    description: 'Not a knockoff. School project'
+                    description: 'Not a knockoff. School project',
+                    website: 'html_dropboxknockoff'
                 },
             },
             {
                 attributes: {
                     title: 'Superfood',
-                    description: 'Superfood school project'
+                    description: 'Superfood school project',
+                    website: 'html_superfood'
                 },
             },
         ]
@@ -694,28 +700,33 @@ var HTMLTemplates = [
                     objectData: [
                         {
                             attributes: {
-                                text: 'Download the app'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Offers'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Promises'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Security'
+                                text: 'RUN RUN RUN RUN RUN'
+                            },
+                        },
+                        {
+                            attributes: {
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                     ]
                 },
                 attributes: {
-                    text: 'Planture'
+                    text: 'RUN'
                 },
             },
             {
@@ -729,33 +740,33 @@ var HTMLTemplates = [
                     objectData: [
                         {
                             attributes: {
-                                text: 'Battle pass'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Website page'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Subscriptions'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Ingredients'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Website updates'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                     ]
                 },
                 attributes: {
-                    text: 'websites'
+                    text: 'RUN'
                 },
             },
             {
@@ -769,43 +780,33 @@ var HTMLTemplates = [
                     objectData: [
                         {
                             attributes: {
-                                text: 'Help center'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Contact us'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Privacy and terms'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Guidelines for cookies'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Settings for cookies'
-                            },
-                        },
-                        {
-                            attributes: {
-                                text: 'Site map'
-                            },
-                        },
-                        {
-                            attributes: {
-                                text: 'Learning resources'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                     ]
                 },
                 attributes: {
-                    text: 'Support'
+                    text: 'RUN'
                 },
             },
             {
@@ -819,28 +820,33 @@ var HTMLTemplates = [
                     objectData: [
                         {
                             attributes: {
-                                text: 'Blog'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Developers'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Forum'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Enlistments'
+                                text: 'RUN RUN RUN RUN RUN'
+                            },
+                        },
+                        {
+                            attributes: {
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                     ]
                 },
                 attributes: {
-                    text: 'Forum'
+                    text: 'RUN'
                 },
             },
             {
@@ -854,28 +860,33 @@ var HTMLTemplates = [
                     objectData: [
                         {
                             attributes: {
-                                text: 'About me'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Positions'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Investorrelations'
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                         {
                             attributes: {
-                                text: 'Partners'
+                                text: 'RUN RUN RUN RUN RUN'
+                            },
+                        },
+                        {
+                            attributes: {
+                                text: 'RUN RUN RUN RUN RUN'
                             },
                         },
                     ]
                 },
                 attributes: {
-                    text: 'Company'
+                    text: 'RUN'
                 },
             },
         ]

@@ -660,7 +660,7 @@ var HTMLTemplates = [
             element.innerHTML = html;
             createButton('backgroundColor', element, {
                 down: function() {
-                    location.href = `../pages/${elementData.attributes.website}/HTML/index.html`
+                    location.href = `pages/${elementData.attributes.website}/HTML/index.html`
                 }
             });
         },

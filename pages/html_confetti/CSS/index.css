@@ -1,0 +1,18 @@
+body {
+    position: relative;
+    margin: 0;
+}
+
+/*#main {
+
+}*/
+
+#main_content {
+    display: block;
+    overflow: hidden;
+}
+
+.scroller_section {
+    width: 100vw;
+    height: 100vh;
+}
